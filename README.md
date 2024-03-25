@@ -6,7 +6,7 @@ A Config For VIM fans
 ## Installation 🚀
 
 ```bash
-git clone https://github.com/miskatul-anwar/MVIM.git
+git clone https://github.com/miskatul-anwar/M-VIM.git
 chmod +x ./install.sh
 ./install.sh
 ```
