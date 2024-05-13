@@ -9,10 +9,8 @@ case "$response" in
 	;;
 esac
 
-echo "Installing VIM plug..."
+echo "Installing M-VIM plug..."
 printf "\n"
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 cp sources/.vimrc ~
 cd ..
