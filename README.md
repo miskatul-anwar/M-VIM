@@ -51,7 +51,7 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 
 #### Plugins Setup 🤖
 
-###### If you have already installed the vim-plug plugin, then you can simply run the following command to install M-VIM
+###### If you have already installed the vim-plug plugin manager, then you can simply run the following command to install M-VIM
 
 ```bash
 git clone https://github.com/miskatul-anwar/M-VIM.git
