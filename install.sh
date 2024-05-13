@@ -18,4 +18,4 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 cp sources/.vimrc ~
 cd ..
 rm -rf M-VIM
-echo "You can now run vim and enjoy M-VIM!"
+echo "You can now run vim and enjoy M-VIM 🤠!"
