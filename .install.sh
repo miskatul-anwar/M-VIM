@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Use whiptail to ask for confirmation
-if whiptail --title "Confirmation" --yesno "☕ Are you sure you want to install M-VIM plug?" 10 60; then
+if whiptail --title "Confirmation" --yesno "☕ Are you sure you want to install M-VIM?" 10 60; then
 	echo "Yes"
 
 	echo "Installing M-VIM plug..."
