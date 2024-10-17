@@ -5,20 +5,21 @@ A Config For VIM fans
 
 ## Installation 🚀
 
-#### Vim
+### Vim
 
-###### Unix
-
-```sh
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
-#### Plugins Setup 🤖
+<!--###### Unix-->
+<!---->
+<!--```sh-->
+<!--curl -fLo ~/.vim/autoload/plug.vim --create-dirs \-->
+<!--    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim-->
+<!--```-->
+<!---->
+<!--#### Plugins Setup 🤖-->
 
 ![image](images/p2.png)
 
-###### If you've already installed the vim-plug plugin manager, simply follow the procedure below
+<!--###### If you've already installed the vim-plug plugin manager, simply follow the procedure below-->
+#### Follow The Procedure below
 
 ```bash
 git clone https://github.com/miskatul-anwar/M-VIM.git
