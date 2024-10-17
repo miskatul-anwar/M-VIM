@@ -6,6 +6,9 @@ syntax on
 " Enable line numbers
 set number
 
+" Enable relative line numbers
+set relativenumber
+
 " Enable mouse support
 set mouse=a
 
@@ -40,7 +43,7 @@ set backspace=indent,eol,start
 set showmode
 
 " Set the color scheme
-" colorscheme dracula
+colorscheme slate
 
 
 " Remap <Tab> to insert spaces instead of a <Tab> character
@@ -76,7 +79,7 @@ call plug#begin('~/.vim/plugged')
 " Add or remove plugins as needed
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'codota/tabnine-vim'
-
+Plug 'shougo/neocomplete.vim'
 Plug 'dense-analysis/ale'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'  " Git integration
@@ -92,7 +95,6 @@ Plug 'SirVer/ultisnips'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'tpope/vim-commentary'
-
 "Plug  'vim-python-pep8-indent'
 " Initialize vim-plug
 call plug#end()
