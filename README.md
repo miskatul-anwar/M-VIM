@@ -57,8 +57,9 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 
 ```bash
 git clone https://github.com/miskatul-anwar/M-VIM.git
-chmod +x ./install.sh
-./install.sh
+cd ./M-VIM
+chmod +x ./.install.sh
+./.install.sh
 ```
 
 ## Dependencies 💻
